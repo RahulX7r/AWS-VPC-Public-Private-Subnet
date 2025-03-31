@@ -127,7 +127,7 @@ Since you mentioned that the Auto Scaling Group launched instances in different 
    b. Copy the PEM file to the Bastion host using the `scp` command. Replace `<pem file location>` with the local and remote file paths, and `<bastion host public IP>` with the Bastion host's public IP address. 
    Example:
       ```
-      scp -i /Users/mathesh/Downloads/aws_demo.pem /Users/mathesh/Downloads/aws_demo.pem ubuntu@34.229.240.123:/home/ubuntu
+      scp -i /Users/mathesh/Downloads/aws_demo.pem /Users/rahul/Downloads/aws_demo.pem ubuntu@34.229.240.123:/home/ubuntu
       ```
    c. The above command will copy the PEM file from your computer to the Bastion host. Once the file is successfully copied, move on to the next step.
    d. SSH into the Bastion host using the following command:
